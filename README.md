@@ -11,7 +11,7 @@ Built using:
 
 ## Available Scripts
 
-In the /gpt3, you can run:
+In the main folder, you can run:
 
 ### `npm start`
 
