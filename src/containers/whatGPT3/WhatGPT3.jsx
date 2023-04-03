@@ -1,3 +1,5 @@
+import 'animate.css';
+
 import { Feature } from "../../components";
 import "./whatGPT3.css";
 
@@ -11,10 +13,12 @@ const WhatGPT3 = () => {
             />
         </div>
         <div className="gpt3__whatgpt3-heading">
-            <h1 className="gradient__text">
+            <h1 className="gradient__text animate__animated animate__fadeInBottomLeft animate__slow 2s">
                 The possibilities are beyond your imagination
             </h1>
-            <p>Explore The Library</p>
+            <p className='animate__animated animate__pulse animate__infinite animate__slow'>
+                Explore The Library
+            </p>
         </div>
         <div className="gpt3__whatgpt3-container">
             <Feature 

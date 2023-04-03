@@ -1,3 +1,5 @@
+import 'animate.css';
+
 import "./cta.css";
 
 const Cta = () => {
@@ -12,7 +14,7 @@ const Cta = () => {
                 </h3>
             </div>
             <div className="gpt3__cta-btn">
-                <button type="button">
+                <button type="button" className="animate__animated animate__pulse animate__infinite">
                     Get Started
                 </button>
             </div>

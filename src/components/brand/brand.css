@@ -33,3 +33,13 @@
     align-items: center;
 }
 
+.gpt3__brand__img-size img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: grayscale(1);
+}
+
+.gpt3__brand__img-size img:hover {
+    filter: grayscale(0);
+}

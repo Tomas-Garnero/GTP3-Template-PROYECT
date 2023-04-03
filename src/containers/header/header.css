@@ -73,6 +73,10 @@
     border: none;
 }
 
+.gpt3__header-content__input button:hover {
+    color: black;
+}
+
 .gpt3__header-content__people {
     width: 100%;
     display: flex;
@@ -162,6 +166,4 @@
         line-height: 16px;
     }
 }
-
-
 

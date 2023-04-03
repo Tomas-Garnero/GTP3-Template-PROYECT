@@ -1,10 +1,12 @@
+import 'animate.css';
+
 import "./feature.css";
 
 const Feature = ({ title, text }) => {
     return (
         <div className="gpt3__features-container__feature">
             <div className="gpt3__features-container__feature-title">
-                <div />
+                <div className="animate__animated animate__rubberBand animate__infinite animate__slower"/>
                 <h1>{title}</h1>
             </div>
             <div className="gpt3__features-container_feature-text">

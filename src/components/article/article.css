@@ -34,6 +34,10 @@
     color: #FFFFFF;
 }
 
+.gpt3__blog-container_article-content p:hover {
+    color: yellow;
+}
+
 .gpt3__blog-container_article-content h3 {
     font-family: var(--font-family);
     font-weight: 800;

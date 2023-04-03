@@ -15,7 +15,9 @@ const Article = ({ imgUrl, date, title }) => {
                         {title}
                     </h3>
                 </div>
-                <p>Read Full Article</p>
+                <p className="animate__animated animate__headShake animate__slow animate__infinite">
+                    Read Full Article
+                </p>
             </div>
         </div>
     )

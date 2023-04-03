@@ -18,8 +18,8 @@
 }
 
 .gpt3__navbar-links_logo img {
-    width: 62.56px;
-    height: 16.02px;
+    width: 150px;
+    height: 50px;
 }
 
 .gpt3__navbar-links_container {
@@ -45,6 +45,24 @@
 
     margin: 0 1rem;
     cursor: pointer;
+}
+
+.gpt3__navbar-links_container p:hover,
+.gpt3__navbar-sign p:hover {
+    color: #81AFDD;
+}
+
+.gpt3__navbar-sign button:hover {
+    color: black;
+}
+
+.gpt3__navbar-menu_container-links p:hover,
+.gpt3__navbar-menu_container-links-sign p:hover {
+    color: #81AFDD;
+}
+
+.gpt3__navbar-menu_container-links-sign button:hover {
+    color: black;
 }
 
 .gpt3__navbar-sign button,

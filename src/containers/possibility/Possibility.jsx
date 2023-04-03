@@ -8,7 +8,7 @@ const Possibility = () => {
                 <img src={possibility} alt="possibility" />
             </div>
             <div className="gpt3__possibility-content">
-                <h4>
+                <h4 className="animate__animated animate__pulse animate__infinite animate__slow">
                     Request Early Access to Get Started
                 </h4>
                 <h1 className="gradient__text">
@@ -17,7 +17,7 @@ const Possibility = () => {
                 <p>
                     Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.
                 </p>
-                <h4>
+                <h4 className="animate__animated animate__pulse animate__infinite animate__slow">
                     Request Early Access to Get Started
                 </h4>
             </div>

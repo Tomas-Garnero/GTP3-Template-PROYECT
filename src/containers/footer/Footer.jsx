@@ -1,3 +1,6 @@
+import TrackVisibility from 'react-on-screen';
+import 'animate.css';
+
 import "./footer.css";
 import gpt3Logo from "../../assets/logo.svg";
 
@@ -5,11 +8,15 @@ const Footer = () => {
     return (
         <div className="gpt3__footer section__padding">
             <div className="gpt3__footer-heading">
-                <h1 className="gradient__text">
-                    Do you want to step in to the future before others?
-                </h1>
+                <TrackVisibility>
+                    {({isVisible}) => 
+                        <h1 className={isVisible ? "gradient__text animate__animated animate__fadeInUp animate__slow" : "gradient__text"}>
+                            Do you want to step in to the future before others?
+                        </h1>
+                    }
+                </TrackVisibility>
             </div>
-            <div className="gpt3__footer-btn">
+            <div className="gpt3__footer-btn animate__animated animate__pulse animate__infinite">
                 <p>Request Early Access</p>
             </div>
             <div className="gpt3__footer-links">
