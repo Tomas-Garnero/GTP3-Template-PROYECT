@@ -24,20 +24,3 @@ const Brand = () => {
 }
 
 export default Brand;
-
-
-{/* <div>
-    <img src={google1} alt="google" width={180} />
-</div>
-<div>
-    <img src={slack1} alt="slack"  width={125}  />
-</div>
-<div>
-    <img src={dropbox1} alt="dropbox" width={150} />
-</div>
-<div>
-    <img src={shopify1} alt="shopify" width={150} />
-</div> 
-<div>
-    <img src={atlassian1} alt="atlassian" width={135} />
-</div> */}
